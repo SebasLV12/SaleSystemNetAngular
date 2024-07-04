@@ -1,0 +1,17 @@
+C:\Users\W10\Desktop\SystemSale\APISystemSale\SaleSystem.Utility\bin\Debug\net7.0\SaleSystem.Utility.deps.json
+C:\Users\W10\Desktop\SystemSale\APISystemSale\SaleSystem.Utility\bin\Debug\net7.0\SaleSystem.Utility.dll
+C:\Users\W10\Desktop\SystemSale\APISystemSale\SaleSystem.Utility\bin\Debug\net7.0\SaleSystem.Utility.pdb
+C:\Users\W10\Desktop\SystemSale\APISystemSale\SaleSystem.Utility\obj\Debug\net7.0\SaleSystem.Utility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\W10\Desktop\SystemSale\APISystemSale\SaleSystem.Utility\obj\Debug\net7.0\SaleSystem.Utility.AssemblyInfoInputs.cache
+C:\Users\W10\Desktop\SystemSale\APISystemSale\SaleSystem.Utility\obj\Debug\net7.0\SaleSystem.Utility.AssemblyInfo.cs
+C:\Users\W10\Desktop\SystemSale\APISystemSale\SaleSystem.Utility\obj\Debug\net7.0\SaleSystem.Utility.csproj.CoreCompileInputs.cache
+C:\Users\W10\Desktop\SystemSale\APISystemSale\SaleSystem.Utility\obj\Debug\net7.0\SaleSystem.Utility.dll
+C:\Users\W10\Desktop\SystemSale\APISystemSale\SaleSystem.Utility\obj\Debug\net7.0\refint\SaleSystem.Utility.dll
+C:\Users\W10\Desktop\SystemSale\APISystemSale\SaleSystem.Utility\obj\Debug\net7.0\SaleSystem.Utility.pdb
+C:\Users\W10\Desktop\SystemSale\APISystemSale\SaleSystem.Utility\obj\Debug\net7.0\ref\SaleSystem.Utility.dll
+C:\Users\W10\Desktop\SystemSale\APISystemSale\SaleSystem.Utility\bin\Debug\net7.0\SaleSystem.DTO.dll
+C:\Users\W10\Desktop\SystemSale\APISystemSale\SaleSystem.Utility\bin\Debug\net7.0\SaleSystem.Model.dll
+C:\Users\W10\Desktop\SystemSale\APISystemSale\SaleSystem.Utility\bin\Debug\net7.0\SaleSystem.DTO.pdb
+C:\Users\W10\Desktop\SystemSale\APISystemSale\SaleSystem.Utility\bin\Debug\net7.0\SaleSystem.Model.pdb
+C:\Users\W10\Desktop\SystemSale\APISystemSale\SaleSystem.Utility\obj\Debug\net7.0\SaleSystem.Utility.csproj.AssemblyReference.cache
+C:\Users\W10\Desktop\SystemSale\APISystemSale\SaleSystem.Utility\obj\Debug\net7.0\SaleSyst.2AD7091F.Up2Date

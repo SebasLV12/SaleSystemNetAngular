@@ -1,0 +1,11 @@
+C:\Users\W10\Desktop\SystemSale\APISystemSale\SaleSystem.DTO\bin\Debug\net7.0\SaleSystem.DTO.deps.json
+C:\Users\W10\Desktop\SystemSale\APISystemSale\SaleSystem.DTO\bin\Debug\net7.0\SaleSystem.DTO.dll
+C:\Users\W10\Desktop\SystemSale\APISystemSale\SaleSystem.DTO\bin\Debug\net7.0\SaleSystem.DTO.pdb
+C:\Users\W10\Desktop\SystemSale\APISystemSale\SaleSystem.DTO\obj\Debug\net7.0\SaleSystem.DTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\W10\Desktop\SystemSale\APISystemSale\SaleSystem.DTO\obj\Debug\net7.0\SaleSystem.DTO.AssemblyInfoInputs.cache
+C:\Users\W10\Desktop\SystemSale\APISystemSale\SaleSystem.DTO\obj\Debug\net7.0\SaleSystem.DTO.AssemblyInfo.cs
+C:\Users\W10\Desktop\SystemSale\APISystemSale\SaleSystem.DTO\obj\Debug\net7.0\SaleSystem.DTO.csproj.CoreCompileInputs.cache
+C:\Users\W10\Desktop\SystemSale\APISystemSale\SaleSystem.DTO\obj\Debug\net7.0\SaleSystem.DTO.dll
+C:\Users\W10\Desktop\SystemSale\APISystemSale\SaleSystem.DTO\obj\Debug\net7.0\refint\SaleSystem.DTO.dll
+C:\Users\W10\Desktop\SystemSale\APISystemSale\SaleSystem.DTO\obj\Debug\net7.0\SaleSystem.DTO.pdb
+C:\Users\W10\Desktop\SystemSale\APISystemSale\SaleSystem.DTO\obj\Debug\net7.0\ref\SaleSystem.DTO.dll

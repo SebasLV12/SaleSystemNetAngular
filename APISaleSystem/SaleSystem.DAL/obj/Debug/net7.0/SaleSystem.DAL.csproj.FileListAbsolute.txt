@@ -1,0 +1,15 @@
+C:\Users\W10\Desktop\SystemSale\APISystemSale\SaleSystem.DAL\bin\Debug\net7.0\SaleSystem.DAL.deps.json
+C:\Users\W10\Desktop\SystemSale\APISystemSale\SaleSystem.DAL\bin\Debug\net7.0\SaleSystem.DAL.dll
+C:\Users\W10\Desktop\SystemSale\APISystemSale\SaleSystem.DAL\bin\Debug\net7.0\SaleSystem.DAL.pdb
+C:\Users\W10\Desktop\SystemSale\APISystemSale\SaleSystem.DAL\obj\Debug\net7.0\SaleSystem.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\W10\Desktop\SystemSale\APISystemSale\SaleSystem.DAL\obj\Debug\net7.0\SaleSystem.DAL.AssemblyInfoInputs.cache
+C:\Users\W10\Desktop\SystemSale\APISystemSale\SaleSystem.DAL\obj\Debug\net7.0\SaleSystem.DAL.AssemblyInfo.cs
+C:\Users\W10\Desktop\SystemSale\APISystemSale\SaleSystem.DAL\obj\Debug\net7.0\SaleSystem.DAL.csproj.CoreCompileInputs.cache
+C:\Users\W10\Desktop\SystemSale\APISystemSale\SaleSystem.DAL\obj\Debug\net7.0\SaleSystem.DAL.dll
+C:\Users\W10\Desktop\SystemSale\APISystemSale\SaleSystem.DAL\obj\Debug\net7.0\refint\SaleSystem.DAL.dll
+C:\Users\W10\Desktop\SystemSale\APISystemSale\SaleSystem.DAL\obj\Debug\net7.0\SaleSystem.DAL.pdb
+C:\Users\W10\Desktop\SystemSale\APISystemSale\SaleSystem.DAL\obj\Debug\net7.0\ref\SaleSystem.DAL.dll
+C:\Users\W10\Desktop\SystemSale\APISystemSale\SaleSystem.DAL\obj\Debug\net7.0\SaleSystem.DAL.csproj.AssemblyReference.cache
+C:\Users\W10\Desktop\SystemSale\APISystemSale\SaleSystem.DAL\bin\Debug\net7.0\SaleSystem.Model.dll
+C:\Users\W10\Desktop\SystemSale\APISystemSale\SaleSystem.DAL\bin\Debug\net7.0\SaleSystem.Model.pdb
+C:\Users\W10\Desktop\SystemSale\APISystemSale\SaleSystem.DAL\obj\Debug\net7.0\SaleSyst.B7ED32DF.Up2Date
