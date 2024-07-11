@@ -1,1 +1,83 @@
-<p>report works!</p>
+<h1 style="margin: 20px 0px 0px 40px;">Sale Report</h1>
+
+<mat-card style="margin: 20px 40px 40px 40px;">
+    <mat-card-content>
+        <form [formGroup]="filterForm" (ngSubmit)="searchSales()">
+            <div class="form-fields">
+              
+                    <mat-form-field appearance="fill">
+                        <mat-label>Start Date</mat-label>
+                        <input matInput autocomplete="off" formControlName="startDate" [matDatepicker]="picker1">
+                        <mat-datepicker-toggle matSuffix [for]="picker1"></mat-datepicker-toggle>
+                        <mat-datepicker #picker1></mat-datepicker>
+                    </mat-form-field>
+
+                    <mat-form-field appearance="fill">
+                        <mat-label>End Date</mat-label>
+                        <input matInput autocomplete="off" formControlName="endDate" [matDatepicker]="picker2">
+                        <mat-datepicker-toggle matSuffix [for]="picker2"></mat-datepicker-toggle>
+                        <mat-datepicker #picker2></mat-datepicker>
+                    </mat-form-field>
+
+                    <button mat-raised-button color="primary"
+                    [disabled]="filterForm.invalid"
+                    type="submit"
+                    class="search-button"
+                    >
+                        <mat-icon>search</mat-icon> Search
+                    </button>
+            </div>
+        </form>
+        <button mat-raised-button color="warn"
+                    [disabled]="listOfSaleReport.length<1"
+                    (click)="exportExcel()"
+                    >
+                        <mat-icon>feed</mat-icon> Export Excel
+        </button>
+        <div class="mat-elevation-z2" style="margin-top: 15px;">
+            <table mat-table [dataSource]="dataSaleReport">
+                <ng-container matColumnDef="createdOn">
+                    <th mat-header-cell *matHeaderCellDef>Created On</th>
+                    <td mat-cell *matCellDef="let element">{{element.createdOn}}</td>
+                </ng-container>
+
+                <ng-container matColumnDef="numberDoc">
+                    <th mat-header-cell *matHeaderCellDef>Sale Number</th>
+                    <td mat-cell *matCellDef="let element">{{element.numberDocument}}</td>
+                </ng-container>
+
+                <ng-container matColumnDef="paymentType">
+                    <th mat-header-cell *matHeaderCellDef>Payment Type</th>
+                    <td mat-cell *matCellDef="let element">{{element.paymentType}}</td>
+                </ng-container>
+                
+                <ng-container matColumnDef="total">
+                    <th mat-header-cell *matHeaderCellDef>Total</th>
+                    <td mat-cell *matCellDef="let element">{{element.totalSale}}</td>
+                </ng-container>
+                <ng-container matColumnDef="product">
+                    <th mat-header-cell *matHeaderCellDef>Product</th>
+                    <td mat-cell *matCellDef="let element">{{element.product}}</td>
+                </ng-container>
+                <ng-container matColumnDef="amount">
+                    <th mat-header-cell *matHeaderCellDef>Amount</th>
+                    <td mat-cell *matCellDef="let element">{{element.amount}}</td>
+                </ng-container>
+                <ng-container matColumnDef="price">
+                    <th mat-header-cell *matHeaderCellDef>Price</th>
+                    <td mat-cell *matCellDef="let element">{{element.price}}</td>
+                </ng-container>
+                <ng-container matColumnDef="productTotal">
+                    <th mat-header-cell *matHeaderCellDef>Total by product</th>
+                    <td mat-cell *matCellDef="let element">{{element.total}}</td>
+                </ng-container>
+                <tr mat-header-row *matHeaderRowDef="columnsTable"></tr>
+                <tr mat-row *matRowDef="let row;columns:columnsTable;"></tr>
+
+
+            </table>
+            <mat-paginator [pageSizeOptions]="[5,10,20]" showFirstLastButtons>
+            </mat-paginator>
+        </div>
+    </mat-card-content>
+</mat-card>

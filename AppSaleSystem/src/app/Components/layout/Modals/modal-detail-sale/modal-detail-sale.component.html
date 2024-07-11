@@ -1,0 +1,64 @@
+<h2 mat-dialog-title>Sale Detail</h2>
+
+<mat-dialog-content>
+   
+        <mat-grid-list cols="4" rowHeight="70px" style="width: 100%;">
+            <mat-grid-tile>
+                <mat-form-field  appearance="fill"  style="width: 95%;">
+                    <mat-label>Created on</mat-label>
+                    <input matInput [(ngModel)]="createOn">
+                </mat-form-field>
+            </mat-grid-tile>
+
+            <mat-grid-tile>
+                <mat-form-field  appearance="fill" style="width: 95%;">
+                    <mat-label>Sale number</mat-label>
+                    <input matInput [(ngModel)]="numberDoc">
+                </mat-form-field>
+            </mat-grid-tile>
+
+            <mat-grid-tile>
+                <mat-form-field  appearance="fill" style="width: 95%;">
+                    <mat-label>Payment Type</mat-label>
+                    <input matInput [(ngModel)]="paymentType">
+                </mat-form-field>
+            </mat-grid-tile>
+
+            <mat-grid-tile>
+                <mat-form-field  appearance="fill" style="width: 95%;">
+                    <mat-label>Total</mat-label>
+                    <input matInput [(ngModel)]="total">
+                </mat-form-field>
+            </mat-grid-tile>
+        </mat-grid-list>
+        <h4>List of products</h4>
+        <table mat-table [dataSource]="detailSale" class="mat-elevation-z2">
+
+            <ng-container matColumnDef="product">
+                <th mat-header-cell *matHeaderCellDef>Product</th>
+                <td mat-cell *matCellDef="let element">{{element.productDescription}}</td>
+            </ng-container>
+
+            <ng-container matColumnDef="amount">
+                <th mat-header-cell *matHeaderCellDef>Amount</th>
+                <td mat-cell *matCellDef="let element">{{element.amount}}</td>
+            </ng-container>
+
+            <ng-container matColumnDef="price">
+                <th mat-header-cell *matHeaderCellDef>Price</th>
+                <td mat-cell *matCellDef="let element">{{element.priceString}}</td>
+            </ng-container>
+
+            <ng-container matColumnDef="total">
+                <th mat-header-cell *matHeaderCellDef>Total</th>
+                <td mat-cell *matCellDef="let element">{{element.totalString}}</td>
+            </ng-container>
+            
+            <tr mat-header-row *matHeaderRowDef="columnsTable"></tr>
+            <tr mat-row *matRowDef="let row;columns:columnsTable;"></tr>
+        </table>
+</mat-dialog-content>
+
+<mat-dialog-actions align="end">
+    <button mat-raised-button mat-dialog-close cdkFocusInitial color="warn">Back</button>
+</mat-dialog-actions>

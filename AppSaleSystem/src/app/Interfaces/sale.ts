@@ -6,6 +6,6 @@ export interface Sale {
     paymentType:string,
     createdOn?:string,
     totalString:string,
-    detailSale: DetailSale[]
+    detailSales: DetailSale[]
 }
 

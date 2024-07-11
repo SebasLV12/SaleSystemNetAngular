@@ -12,7 +12,7 @@ import {Sale} from '../Interfaces/sale';
 })
 export class SaleService {
 
-  private urlApi:string=environment.endpoint+"Sale/";
+  private urlApi:string=environment.endpoint+"Sales/";
 
   constructor(private http:HttpClient) {}
 
